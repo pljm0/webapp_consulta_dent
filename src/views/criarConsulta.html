@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Criar Consulta</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="row mb-4">
+      <div class="col-md-6">
+        <h3 class="font-weight-bold">ConsultaDent</h3>
+      </div>
+      <div class="col-md-6 text-right">
+        <a href="/" class="btn btn-secondary">Voltar</a>
+        <a href="/logout" class="btn btn-danger">Logout</a>
+      </div>
+    </div>
+    <h1 class="text-center">Criar Consulta</h1>
+    <form action="/criar" method="POST">
+      <div class="form-group">
+        <label for="titulo">Título:</label>
+        <input type="text" class="form-control" id="titulo" name="titulo" required>
+      </div>
+      <div class="form-group">
+        <label for="clinica">Clínica:</label>
+        <input type="text" class="form-control" id="clinica" name="clinica" required>
+      </div>
+      <div class="form-group">
+        <label for="data">Data:</label>
+        <input type="date" class="form-control" id="data" name="data" required>
+      </div>
+      <div class="form-group">
+        <label for="hora">Hora:</label>
+        <input type="time" class="form-control" id="hora" name="hora" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Criar</button>
+    </form>
+  </div>
+</body>
+</html>

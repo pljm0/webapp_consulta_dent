@@ -1,0 +1,21 @@
+{
+  "development": {
+    "dialect": "sqlite",
+    "storage": "./database.sqlite",
+    "define": {
+      "timestamps": true,
+      "underscored": true,
+      "freezeTableName": true,
+      "modelName": "Usuarios" 
+    }
+  },
+  "test": {
+    "dialect": "sqlite",
+    "storage": "path/to/database.sqlite"
+  },
+  "production": {
+    "dialect": "sqlite",
+    "storage": "path/to/database.sqlite"
+  }
+}
+
