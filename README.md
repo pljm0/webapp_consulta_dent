@@ -4,7 +4,7 @@ Este é um projeto de aplicativo web para gerenciamento de consultas odontológi
 
 ## Funcionalidades
 
-- Autenticação de usuário]
+- Autenticação de usuário
 - Alteração de dados de usuário
 - Registro de consultas
 - Visualização do histórico de consultas
